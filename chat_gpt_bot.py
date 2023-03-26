@@ -15,4 +15,4 @@ def chat(inp):
     for choice in response.choices:
         result += choice.message.content
     return result
-
+print(chat("who are you?"))
