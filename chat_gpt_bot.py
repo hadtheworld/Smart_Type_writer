@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #Import open AI OS and System Modules
 import openai
-openai.api_key = "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"
+openai.api_key = "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"
 
 def chat(inp):
     response = openai.ChatCompletion.create(
