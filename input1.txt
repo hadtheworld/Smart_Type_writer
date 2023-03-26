@@ -1,0 +1,19 @@
+Here's the Python code for finding factorial of a number:
+
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+```
+
+This function recursively calculates the factorial of a number `n` by calling itself with `n-1` until it reaches the base case of `n=0`. 
+
+You can call the function by passing a number as an argument, like this:
+
+```python
+print(factorial(5)) # Output: 120
+``` 
+
+The above code will print the factorial of 5 which is 5 x 4 x 3 x 2 x 1 = 120.
